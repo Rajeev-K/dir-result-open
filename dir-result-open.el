@@ -1,3 +1,18 @@
+;;; dir-result-open.el --- open file whose name is under point, where buffer contains output of Windows dir command
+
+;; Copyright (C) 2019 rajeev-k
+
+;; Author: rajeev-k
+;; Maintainer:
+;; Created: 6/1/2019
+;; Keywords: convenience
+
+;; This code is free; you can redistribute it and/or modify it under the
+;; terms of the GNU General Public License as published by the Free
+;; Software Foundation; either version 2, or (at your option) any later
+;; version.
+
+;;; Commentary:
 ;; Redirect output of Windows dir command to a file, open the file, then put cursor on a file name then run this command.
 ;;
 ;; Add these lines to your .emacs
